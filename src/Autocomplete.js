@@ -15,11 +15,11 @@ export const Autocomplete = ({
     return (
         <Fragment>
             <div>Key: {value}</div>
-            <label htmlFor="country">{label}</label>
+            <label htmlFor="autocomplete_input">{label}</label>
             <input
                 type="text"
                 placeholder="value"
-                name="country"
+                name="autocomplete_input"
                 onChange={onChange}
                 onKeyUp={() => {
                     fetchData().then(res => setList(res.data));
