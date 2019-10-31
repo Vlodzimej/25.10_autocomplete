@@ -1,0 +1,15 @@
+.autocomplete {
+    display: flex;
+    flex-direction: column;
+    width: 320px;
+    box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.4);
+    cursor: pointer;
+}
+
+.autocomplete__item {
+    padding: 8px;
+}
+
+.autocomplete__item:hover {
+    background-color: lightblue;
+}
